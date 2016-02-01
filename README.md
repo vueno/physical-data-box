@@ -7,6 +7,10 @@ the the other virutal data on the computer that can be opened with RFID-Tags we 
 
 Our project works with node.js, RC522(RFID Card R/W), serialport, open, exec.
 
+1. install node - https://github.com/nodejs/node
+2. install serial-port - https://github.com/voodootikigod/node-serialport
+
+
 The next steps are:
 
 - create a user interface for matching the data with the files, documents..
