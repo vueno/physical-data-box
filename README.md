@@ -9,5 +9,5 @@ Our project works with node.js, RC522(RFID Card R/W), serialport, open, exec.
 
 Thanks to C. Coenen for helping to create this project.
 
-![alt tag](https://www.dropbox.com/s/6i818j5cl2k890f/IMG_2787.jpg?dl=0)
+
 
