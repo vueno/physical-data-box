@@ -26,15 +26,9 @@ long code=0;
 for (byte i = 0; i < mfrc522.uid.size; i++){
 
 code=((code+mfrc522.uid.uidByte[i])*10);
-
 }
 
 //Serial.print("Die Kartennummer lautet:");
 Serial.println(code);
 
-if (code==1031720){
-digitalWrite (2, HIGH);
-delay (5000);
-digitalWrite (2, LOW);
-}
   }
