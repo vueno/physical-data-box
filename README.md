@@ -9,6 +9,14 @@ Our project works with node.js, RC522(RFID Card R/W), serialport, open, exec.
 
 1. install node - https://github.com/nodejs/node
 2. install serial-port - https://github.com/voodootikigod/node-serialport
+3. install the code on the arduino "RFID_Kartennummer.ino"
+4. search the path to the arduino "/dev/tty.wchusbserial1420"
+5. choose your own file/document paths on the app.js file
+6. run the file app.js in the terminal
+
+
+Arduino Code by http://funduino.de/index.php/3-programmieren/nr-19-rfid with this code we can shrink the RFID Card Number to get
+a smaller number from the arduino -> terminal.
 
 
 The next steps are:
